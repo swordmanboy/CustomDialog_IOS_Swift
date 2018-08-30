@@ -13,11 +13,13 @@ class MenuViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
  
-        
     }
-
     
     @IBAction func onTouchShow(_ sender: Any) {
         SMBDialog.shared.show(title: "Hello World")
+    }
+    
+    @IBAction func onTouchHide(_ sender: Any) {
+        
     }
 }

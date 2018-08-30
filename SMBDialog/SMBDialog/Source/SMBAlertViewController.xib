@@ -14,6 +14,7 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SMBAlertViewController" customModule="SMBDialog" customModuleProvider="target">
             <connections>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="viewForAdded" destination="Lu6-yh-jEz" id="ew2-8j-eoy"/>
                 <outlet property="viewMain" destination="j4a-H5-pde" id="ff1-xk-i1r"/>
             </connections>
         </placeholder>
@@ -23,7 +24,7 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="j4a-H5-pde">
-                    <rect key="frame" x="27.5" y="201.5" width="320" height="284.5"/>
+                    <rect key="frame" x="27.5" y="199" width="320" height="290"/>
                     <subviews>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tSb-3D-Gik">
                             <rect key="frame" x="290" y="12" width="18" height="18"/>
@@ -49,11 +50,11 @@
                             <nil key="textColor"/>
                             <nil key="highlightedColor"/>
                         </label>
-                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Lu6-yh-jEz">
-                            <rect key="frame" x="0.0" y="204.5" width="320" height="50"/>
+                        <view contentMode="scaleToFill" placeholderIntrinsicWidth="320" placeholderIntrinsicHeight="50" translatesAutoresizingMaskIntoConstraints="NO" id="Lu6-yh-jEz">
+                            <rect key="frame" x="0.0" y="210" width="320" height="50"/>
                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <constraints>
-                                <constraint firstAttribute="height" constant="50" id="P6F-zV-9Eo"/>
+                                <constraint firstAttribute="height" constant="50" id="K8Z-ag-jpb"/>
                             </constraints>
                         </view>
                     </subviews>
@@ -64,7 +65,7 @@
                         <constraint firstAttribute="trailing" secondItem="LmO-KY-zGl" secondAttribute="trailing" constant="20" id="IJF-BI-2Pi"/>
                         <constraint firstAttribute="width" constant="320" id="Kyp-2X-XIj"/>
                         <constraint firstItem="Lu6-yh-jEz" firstAttribute="leading" secondItem="j4a-H5-pde" secondAttribute="leading" id="RTf-yr-GyN"/>
-                        <constraint firstItem="Lu6-yh-jEz" firstAttribute="top" secondItem="LmO-KY-zGl" secondAttribute="bottom" constant="10" id="TMz-ah-qH9"/>
+                        <constraint firstItem="Lu6-yh-jEz" firstAttribute="top" secondItem="LmO-KY-zGl" secondAttribute="bottom" constant="15" id="TMz-ah-qH9"/>
                         <constraint firstAttribute="bottom" secondItem="Lu6-yh-jEz" secondAttribute="bottom" constant="30" id="Tc9-ij-ynj"/>
                         <constraint firstItem="tSb-3D-Gik" firstAttribute="top" secondItem="j4a-H5-pde" secondAttribute="top" constant="12" id="VxP-lw-XUC"/>
                         <constraint firstAttribute="trailing" secondItem="Lu6-yh-jEz" secondAttribute="trailing" id="f2v-ne-CVg"/>

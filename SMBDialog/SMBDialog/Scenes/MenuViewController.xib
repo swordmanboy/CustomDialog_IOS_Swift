@@ -20,20 +20,56 @@
             <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
+                <imageView userInteractionEnabled="NO" alpha="0.40000000000000002" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="liverpool" translatesAutoresizingMaskIntoConstraints="NO" id="152-ID-f4i">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                </imageView>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nr2-uN-EwT">
-                    <rect key="frame" x="168.5" y="328.5" width="38" height="30"/>
-                    <state key="normal" title="Show"/>
+                    <rect key="frame" x="127.5" y="323.5" width="120" height="40"/>
+                    <color key="backgroundColor" red="0.96862745100000003" green="0.61960784310000006" blue="0.0078431372550000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="120" id="5Pp-X5-Xca"/>
+                        <constraint firstAttribute="height" constant="40" id="zEe-HJ-ZZv"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
+                    <state key="normal" title="Show">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
                     <connections>
                         <action selector="onTouchShow:" destination="-1" eventType="touchUpInside" id="ELo-KR-qMZ"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iFC-7V-2Px">
+                    <rect key="frame" x="127.5" y="388" width="120" height="40"/>
+                    <color key="backgroundColor" red="0.94258779290000005" green="0.12288144049999999" blue="0.17261551980000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="120" id="ahd-8v-JdF"/>
+                        <constraint firstAttribute="height" constant="40" id="vWu-Cy-zRv"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
+                    <state key="normal" title="Hide">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <connections>
+                        <action selector="onTouchHide:" destination="-1" eventType="touchUpInside" id="bbL-70-tSE"/>
                     </connections>
                 </button>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
+                <constraint firstItem="152-ID-f4i" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="3uV-nu-jN3"/>
                 <constraint firstItem="Nr2-uN-EwT" firstAttribute="centerX" secondItem="fnl-2z-Ty3" secondAttribute="centerX" id="4rr-tF-fgq"/>
+                <constraint firstItem="152-ID-f4i" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="6ex-bc-gIi"/>
                 <constraint firstItem="Nr2-uN-EwT" firstAttribute="centerY" secondItem="fnl-2z-Ty3" secondAttribute="centerY" id="8X1-GD-hlC"/>
+                <constraint firstItem="152-ID-f4i" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="8qj-Lm-ZdP"/>
+                <constraint firstItem="iFC-7V-2Px" firstAttribute="centerX" secondItem="fnl-2z-Ty3" secondAttribute="centerX" id="BHE-1G-r2Z"/>
+                <constraint firstItem="iFC-7V-2Px" firstAttribute="top" secondItem="Nr2-uN-EwT" secondAttribute="bottom" constant="24.5" id="NGS-2x-pin"/>
+                <constraint firstItem="152-ID-f4i" firstAttribute="bottom" secondItem="fnl-2z-Ty3" secondAttribute="bottom" id="msj-oz-Gy6"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="33.5" y="53.5"/>
         </view>
     </objects>
+    <resources>
+        <image name="liverpool" width="1200" height="1604"/>
+    </resources>
 </document>
