@@ -1,0 +1,625 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB5A87AA2137B0320004D295 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5A87A92137B0320004D295 /* AppDelegate.swift */; };
+		FB5A87AC2137B0320004D295 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5A87AB2137B0320004D295 /* ViewController.swift */; };
+		FB5A87AF2137B0320004D295 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB5A87AD2137B0320004D295 /* Main.storyboard */; };
+		FB5A87B12137B0360004D295 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB5A87B02137B0360004D295 /* Assets.xcassets */; };
+		FB5A87B42137B0360004D295 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB5A87B22137B0360004D295 /* LaunchScreen.storyboard */; };
+		FB5A87BF2137B0360004D295 /* SMBDialogTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5A87BE2137B0360004D295 /* SMBDialogTests.swift */; };
+		FB5A87CA2137B0360004D295 /* SMBDialogUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5A87C92137B0360004D295 /* SMBDialogUITests.swift */; };
+		FB5A87DB2137B0820004D295 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5A87D92137B0820004D295 /* MenuViewController.swift */; };
+		FB5A87DC2137B0820004D295 /* MenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB5A87DA2137B0820004D295 /* MenuViewController.xib */; };
+		FB5A87DF2137B3550004D295 /* SMBAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5A87DD2137B3550004D295 /* SMBAlertViewController.swift */; };
+		FB5A87E02137B3550004D295 /* SMBAlertViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB5A87DE2137B3550004D295 /* SMBAlertViewController.xib */; };
+		FB5A87E22137ECC10004D295 /* SMBDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5A87E12137ECC10004D295 /* SMBDialog.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FB5A87BB2137B0360004D295 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB5A879E2137B0320004D295 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB5A87A52137B0320004D295;
+			remoteInfo = SMBDialog;
+		};
+		FB5A87C62137B0360004D295 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB5A879E2137B0320004D295 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB5A87A52137B0320004D295;
+			remoteInfo = SMBDialog;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FB5A87A62137B0320004D295 /* SMBDialog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SMBDialog.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB5A87A92137B0320004D295 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FB5A87AB2137B0320004D295 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FB5A87AE2137B0320004D295 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FB5A87B02137B0360004D295 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FB5A87B32137B0360004D295 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FB5A87B52137B0360004D295 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB5A87BA2137B0360004D295 /* SMBDialogTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SMBDialogTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB5A87BE2137B0360004D295 /* SMBDialogTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SMBDialogTests.swift; sourceTree = "<group>"; };
+		FB5A87C02137B0360004D295 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB5A87C52137B0360004D295 /* SMBDialogUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SMBDialogUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB5A87C92137B0360004D295 /* SMBDialogUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SMBDialogUITests.swift; sourceTree = "<group>"; };
+		FB5A87CB2137B0360004D295 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB5A87D92137B0820004D295 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		FB5A87DA2137B0820004D295 /* MenuViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MenuViewController.xib; sourceTree = "<group>"; };
+		FB5A87DD2137B3550004D295 /* SMBAlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SMBAlertViewController.swift; sourceTree = "<group>"; };
+		FB5A87DE2137B3550004D295 /* SMBAlertViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SMBAlertViewController.xib; sourceTree = "<group>"; };
+		FB5A87E12137ECC10004D295 /* SMBDialog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SMBDialog.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB5A87A32137B0320004D295 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB5A87B72137B0360004D295 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB5A87C22137B0360004D295 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB5A879D2137B0320004D295 = {
+			isa = PBXGroup;
+			children = (
+				FB5A87A82137B0320004D295 /* SMBDialog */,
+				FB5A87BD2137B0360004D295 /* SMBDialogTests */,
+				FB5A87C82137B0360004D295 /* SMBDialogUITests */,
+				FB5A87A72137B0320004D295 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FB5A87A72137B0320004D295 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB5A87A62137B0320004D295 /* SMBDialog.app */,
+				FB5A87BA2137B0360004D295 /* SMBDialogTests.xctest */,
+				FB5A87C52137B0360004D295 /* SMBDialogUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB5A87A82137B0320004D295 /* SMBDialog */ = {
+			isa = PBXGroup;
+			children = (
+				FB5A87D72137B0690004D295 /* Source */,
+				FB5A87D82137B0710004D295 /* Scenes */,
+				FB5A87A92137B0320004D295 /* AppDelegate.swift */,
+				FB5A87AB2137B0320004D295 /* ViewController.swift */,
+				FB5A87AD2137B0320004D295 /* Main.storyboard */,
+				FB5A87B02137B0360004D295 /* Assets.xcassets */,
+				FB5A87B22137B0360004D295 /* LaunchScreen.storyboard */,
+				FB5A87B52137B0360004D295 /* Info.plist */,
+			);
+			path = SMBDialog;
+			sourceTree = "<group>";
+		};
+		FB5A87BD2137B0360004D295 /* SMBDialogTests */ = {
+			isa = PBXGroup;
+			children = (
+				FB5A87BE2137B0360004D295 /* SMBDialogTests.swift */,
+				FB5A87C02137B0360004D295 /* Info.plist */,
+			);
+			path = SMBDialogTests;
+			sourceTree = "<group>";
+		};
+		FB5A87C82137B0360004D295 /* SMBDialogUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FB5A87C92137B0360004D295 /* SMBDialogUITests.swift */,
+				FB5A87CB2137B0360004D295 /* Info.plist */,
+			);
+			path = SMBDialogUITests;
+			sourceTree = "<group>";
+		};
+		FB5A87D72137B0690004D295 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				FB5A87DD2137B3550004D295 /* SMBAlertViewController.swift */,
+				FB5A87DE2137B3550004D295 /* SMBAlertViewController.xib */,
+				FB5A87E12137ECC10004D295 /* SMBDialog.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		FB5A87D82137B0710004D295 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				FB5A87D92137B0820004D295 /* MenuViewController.swift */,
+				FB5A87DA2137B0820004D295 /* MenuViewController.xib */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB5A87A52137B0320004D295 /* SMBDialog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB5A87CE2137B0360004D295 /* Build configuration list for PBXNativeTarget "SMBDialog" */;
+			buildPhases = (
+				FB5A87A22137B0320004D295 /* Sources */,
+				FB5A87A32137B0320004D295 /* Frameworks */,
+				FB5A87A42137B0320004D295 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SMBDialog;
+			productName = SMBDialog;
+			productReference = FB5A87A62137B0320004D295 /* SMBDialog.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FB5A87B92137B0360004D295 /* SMBDialogTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB5A87D12137B0360004D295 /* Build configuration list for PBXNativeTarget "SMBDialogTests" */;
+			buildPhases = (
+				FB5A87B62137B0360004D295 /* Sources */,
+				FB5A87B72137B0360004D295 /* Frameworks */,
+				FB5A87B82137B0360004D295 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB5A87BC2137B0360004D295 /* PBXTargetDependency */,
+			);
+			name = SMBDialogTests;
+			productName = SMBDialogTests;
+			productReference = FB5A87BA2137B0360004D295 /* SMBDialogTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FB5A87C42137B0360004D295 /* SMBDialogUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB5A87D42137B0360004D295 /* Build configuration list for PBXNativeTarget "SMBDialogUITests" */;
+			buildPhases = (
+				FB5A87C12137B0360004D295 /* Sources */,
+				FB5A87C22137B0360004D295 /* Frameworks */,
+				FB5A87C32137B0360004D295 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB5A87C72137B0360004D295 /* PBXTargetDependency */,
+			);
+			name = SMBDialogUITests;
+			productName = SMBDialogUITests;
+			productReference = FB5A87C52137B0360004D295 /* SMBDialogUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB5A879E2137B0320004D295 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Apinun Wongintawang";
+				TargetAttributes = {
+					FB5A87A52137B0320004D295 = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					FB5A87B92137B0360004D295 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = FB5A87A52137B0320004D295;
+					};
+					FB5A87C42137B0360004D295 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = FB5A87A52137B0320004D295;
+					};
+				};
+			};
+			buildConfigurationList = FB5A87A12137B0320004D295 /* Build configuration list for PBXProject "SMBDialog" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FB5A879D2137B0320004D295;
+			productRefGroup = FB5A87A72137B0320004D295 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB5A87A52137B0320004D295 /* SMBDialog */,
+				FB5A87B92137B0360004D295 /* SMBDialogTests */,
+				FB5A87C42137B0360004D295 /* SMBDialogUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB5A87A42137B0320004D295 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB5A87B42137B0360004D295 /* LaunchScreen.storyboard in Resources */,
+				FB5A87B12137B0360004D295 /* Assets.xcassets in Resources */,
+				FB5A87AF2137B0320004D295 /* Main.storyboard in Resources */,
+				FB5A87E02137B3550004D295 /* SMBAlertViewController.xib in Resources */,
+				FB5A87DC2137B0820004D295 /* MenuViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB5A87B82137B0360004D295 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB5A87C32137B0360004D295 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB5A87A22137B0320004D295 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB5A87DF2137B3550004D295 /* SMBAlertViewController.swift in Sources */,
+				FB5A87AC2137B0320004D295 /* ViewController.swift in Sources */,
+				FB5A87DB2137B0820004D295 /* MenuViewController.swift in Sources */,
+				FB5A87E22137ECC10004D295 /* SMBDialog.swift in Sources */,
+				FB5A87AA2137B0320004D295 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB5A87B62137B0360004D295 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB5A87BF2137B0360004D295 /* SMBDialogTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB5A87C12137B0360004D295 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB5A87CA2137B0360004D295 /* SMBDialogUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FB5A87BC2137B0360004D295 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB5A87A52137B0320004D295 /* SMBDialog */;
+			targetProxy = FB5A87BB2137B0360004D295 /* PBXContainerItemProxy */;
+		};
+		FB5A87C72137B0360004D295 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB5A87A52137B0320004D295 /* SMBDialog */;
+			targetProxy = FB5A87C62137B0360004D295 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FB5A87AD2137B0320004D295 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB5A87AE2137B0320004D295 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FB5A87B22137B0360004D295 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB5A87B32137B0360004D295 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FB5A87CC2137B0360004D295 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FB5A87CD2137B0360004D295 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB5A87CF2137B0360004D295 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L52U2QMKSA;
+				INFOPLIST_FILE = SMBDialog/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = smb.entertain.SMBDialog;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FB5A87D02137B0360004D295 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L52U2QMKSA;
+				INFOPLIST_FILE = SMBDialog/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = smb.entertain.SMBDialog;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FB5A87D22137B0360004D295 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L52U2QMKSA;
+				INFOPLIST_FILE = SMBDialogTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = smb.entertain.SMBDialogTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SMBDialog.app/SMBDialog";
+			};
+			name = Debug;
+		};
+		FB5A87D32137B0360004D295 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L52U2QMKSA;
+				INFOPLIST_FILE = SMBDialogTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = smb.entertain.SMBDialogTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SMBDialog.app/SMBDialog";
+			};
+			name = Release;
+		};
+		FB5A87D52137B0360004D295 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L52U2QMKSA;
+				INFOPLIST_FILE = SMBDialogUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = smb.entertain.SMBDialogUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SMBDialog;
+			};
+			name = Debug;
+		};
+		FB5A87D62137B0360004D295 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L52U2QMKSA;
+				INFOPLIST_FILE = SMBDialogUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = smb.entertain.SMBDialogUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SMBDialog;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB5A87A12137B0320004D295 /* Build configuration list for PBXProject "SMBDialog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB5A87CC2137B0360004D295 /* Debug */,
+				FB5A87CD2137B0360004D295 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB5A87CE2137B0360004D295 /* Build configuration list for PBXNativeTarget "SMBDialog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB5A87CF2137B0360004D295 /* Debug */,
+				FB5A87D02137B0360004D295 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB5A87D12137B0360004D295 /* Build configuration list for PBXNativeTarget "SMBDialogTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB5A87D22137B0360004D295 /* Debug */,
+				FB5A87D32137B0360004D295 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB5A87D42137B0360004D295 /* Build configuration list for PBXNativeTarget "SMBDialogUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB5A87D52137B0360004D295 /* Debug */,
+				FB5A87D62137B0360004D295 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FB5A879E2137B0320004D295 /* Project object */;
+}
